@@ -8,9 +8,6 @@ by **vertoe** due to a lack of time to spend on this project by kal.
 *Note*: The user **kalgecin** on bitcointalk was compromized but he is still
 active here on github and has write access to this repository.
 
-*Note*: **vertoe** is in no way related or associated with Fibonacci. Jasin Lee
-is officially an idiot and can't damage this project.
-
 * Scrypt-Jane-based coin
 * No ASIC miners
 * Difficulty adjustment every block.
@@ -18,6 +15,7 @@ is officially an idiot and can't damage this project.
 * Block Maturity: 520 Confirms
 * Transaction Maturity: 6 Confirmations
 * Maximum of ~2 Billion coins per transaction.
+* Maximum of 10 mil coin supply
 * RPCPort: 2224
 * Network Port: 2225
 
@@ -40,21 +38,13 @@ Proof-of-Stake
 * Coin age to stake: 7 days.
 
 
-Proof-of-Node
--------------
-
-* Generating coins while providing a full node service.
-* To be released, details soon (tm).
-
 
 Contact
 -------
 
-Try to reach **vertoe** over at **bitcointalk.org**.
-
 Here is the current [ANN] https://bitcointalk.org/index.php?topic=1021193.0
 
-Report issues here: https://github.com/vertoe/cachecoin/issues
+Report issues here: https://github.com/kalgecin/cachecoin/issues
 
 
 Archives
