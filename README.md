@@ -3,7 +3,8 @@ Cachecoin official development tree
 
 Cachecoin is a hybrid Scrypt-Jane-Proof-of-Work, Proof-of-Stake and
 Proof-of-Node. It was originally developed by **kalgecin** and taken over
-by **vertoe** due to a lack of time to spend on this project by kal.
+by **vertoe** due to a lack of time to spend on this project by kal. An then 
+**kalgecin** restarted the work on cachecoin again after **vertoe** left.
 
 *Note*: The user **kalgecin** on bitcointalk was compromized but he is still
 active here on github and has write access to this repository.
@@ -42,13 +43,6 @@ Proof-of-Stake
 Contact
 -------
 
-Here is the current [ANN] https://bitcointalk.org/index.php?topic=1021193.0
+Here is the current [ANN] https://bitcointalk.org/index.php?topic=1927335.0
 
 Report issues here: https://github.com/kalgecin/cachecoin/issues
-
-
-Archives
---------
-
-The old compromized [ANN]-Thread by **kalgecin** is this one:
-https://bitcointalk.org/index.php?topic=400389.0
