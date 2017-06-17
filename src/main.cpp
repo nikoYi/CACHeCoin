@@ -45,7 +45,7 @@ unsigned int nStakeMinAge = 60 * 60 * 24 * 7; // minimum age for coin age
 unsigned int nStakeMaxAge = 60 * 60 * 24 * 30; // stake age of full weight
 unsigned int nStakeTargetSpacing = 1 * 60 * 15; // DIFF: 15-minute block spacing
 int64 nChainStartTime = 1388949883;  // 01/05/2014 @ 19:24 (UTC)
-int64 nPowFixTimestamp = 1498262400; // 24/6/2017 @ 00:00 (UTC)
+int64 nPowFixTimestamp = 1498262400; // 24/06/2017 @ 00:00 (UTC)
 int nCoinbaseMaturity = 500;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -1042,7 +1042,8 @@ unsigned char GetNfactor(int64 nTimestamp) {
     if(nTimestamp >= nPowFixTimestamp){
 		uint64_t nHashPS = mGetNetworkHashPS(1000);
 		uint64_t nHashPSTarget = 1000000;
-		if(nHashPS > nHashPSTarget){
+        if(nHashPS == 0) nFactor = minNfactor;
+		else if(nHashPS > nHashPSTarget){
             int adjust = (int)(nHashPS/	nHashPSTarget);
 
             if(adjust < maxNfactor) nFactor += adjust -1 ;
