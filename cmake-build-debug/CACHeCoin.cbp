@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CACHeCoin"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kalgecin/CACHeCoin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kalgecin/CACHeCoin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kalgecin/CACHeCoin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CACHeCoin">
+				<Option output="/home/kalgecin/CACHeCoin/cmake-build-debug/CACHeCoin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kalgecin/CACHeCoin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 CACHeCoin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CACHeCoin/fast">
+				<Option output="/home/kalgecin/CACHeCoin/cmake-build-debug/CACHeCoin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kalgecin/CACHeCoin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 CACHeCoin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kalgecin/CACHeCoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kalgecin/CACHeCoin/INSTALL">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/README.md">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/build.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_aboutdialog.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_addressbookpage.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_addresstablemodel.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_askpassphrasedialog.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_bitcoinaddressvalidator.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_bitcoinamountfield.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_bitcoingui.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_blockbrowser.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_cachecoinaddressvalidator.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_cachecoinamountfield.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_cachecoingui.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_chatwindow.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_clientmodel.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_coincontroldialog.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_coincontroltreewidget.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_csvmodelwriter.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_editaddressdialog.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_guiutil.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_monitoreddatamapper.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_notificator.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_optionsdialog.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_optionsmodel.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_overviewpage.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_qvalidatedlineedit.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_qvaluecombobox.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_rpcconsole.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_sendcoinsdialog.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_sendcoinsentry.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_serveur.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_signverifymessagedialog.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_transactiondesc.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_transactiondescdialog.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_transactionfilterproxy.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_transactiontablemodel.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_transactionview.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/moc_walletmodel.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/ui_aboutdialog.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/ui_addressbookpage.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/ui_askpassphrasedialog.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/ui_blockbrowser.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/ui_chatwindow.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/ui_coincontroldialog.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/ui_editaddressdialog.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/ui_optionsdialog.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/ui_overviewpage.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/ui_rpcconsole.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/ui_sendcoinsdialog.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/ui_sendcoinsentry.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/ui_signverifymessagedialog.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/build/ui_transactiondescdialog.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/cachecoin-qt.pro">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/qrc_bitcoin.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/qrc_cachecoin.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/addrman.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/addrman.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/alert.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/alert.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/allocators.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/base58.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/bignum.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/bitcoinrpc.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/bitcoinrpc.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/chat.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/chat.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/checkpoints.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/checkpoints.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/clientversion.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/coincontrol.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/compat.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/crypter.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/crypter.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/db.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/db.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/init.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/init.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/irc.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/irc.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/json/json_spirit.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/json/json_spirit_error_position.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/json/json_spirit_reader.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/json/json_spirit_reader.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/json/json_spirit_reader_template.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/json/json_spirit_stream_reader.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/json/json_spirit_utils.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/json/json_spirit_value.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/json/json_spirit_value.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/json/json_spirit_writer.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/json/json_spirit_writer.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/json/json_spirit_writer_template.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/kernel.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/kernel.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/key.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/key.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/keystore.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/keystore.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/main.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/main.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/mruset.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/net.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/net.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/netbase.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/netbase.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/noui.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/obj/build.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/pbkdf2.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/pbkdf2.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/protocol.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/protocol.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/aboutdialog.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/aboutdialog.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/addressbookpage.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/addressbookpage.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/addresstablemodel.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/addresstablemodel.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/askpassphrasedialog.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/askpassphrasedialog.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/bitcoin.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/bitcoinaddressvalidator.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/bitcoinaddressvalidator.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/bitcoinamountfield.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/bitcoinamountfield.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/bitcoingui.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/bitcoingui.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/bitcoinstrings.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/bitcoinunits.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/bitcoinunits.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/chatwindow.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/chatwindow.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/clientmodel.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/clientmodel.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/coincontroldialog.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/coincontroldialog.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/coincontroltreewidget.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/coincontroltreewidget.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/csvmodelwriter.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/csvmodelwriter.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/editaddressdialog.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/editaddressdialog.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/guiconstants.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/guiutil.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/guiutil.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/macdockiconhandler.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/monitoreddatamapper.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/monitoreddatamapper.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/notificator.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/notificator.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/optionsdialog.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/optionsdialog.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/optionsmodel.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/optionsmodel.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/overviewpage.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/overviewpage.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/qrcodedialog.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/qrcodedialog.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/qtipcserver.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/qtipcserver.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/qvalidatedlineedit.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/qvalidatedlineedit.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/qvaluecombobox.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/qvaluecombobox.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/rpcconsole.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/rpcconsole.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/sendcoinsdialog.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/sendcoinsdialog.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/sendcoinsentry.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/sendcoinsentry.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/serveur.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/serveur.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/signverifymessagedialog.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/signverifymessagedialog.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/test/test_main.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/test/uritests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/test/uritests.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/transactiondesc.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/transactiondesc.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/transactiondescdialog.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/transactiondescdialog.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/transactionfilterproxy.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/transactionfilterproxy.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/transactionrecord.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/transactionrecord.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/transactiontablemodel.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/transactiontablemodel.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/transactionview.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/transactionview.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/walletmodel.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/qt/walletmodel.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/rpcblockchain.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/rpcdump.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/rpcmining.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/rpcnet.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/rpcrawtransaction.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/rpcwallet.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/script.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/script.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-conf.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-chacha.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-hash.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-hash_blake256.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-hash_blake512.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-hash_keccak.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-hash_sha256.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-hash_sha512.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-hash_skein512.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-mix_chacha-avx.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-mix_chacha-sse2.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-mix_chacha-ssse3.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-mix_chacha.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-mix_salsa-avx.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-mix_salsa-sse2.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-mix_salsa.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-mix_salsa64-avx.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-mix_salsa64-sse2.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-mix_salsa64-ssse3.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-mix_salsa64.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-pbkdf2.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-portable-x86.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-portable.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-romix-basic.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-romix-template.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-romix.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-salsa.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-salsa64.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/code/scrypt-jane-test-vectors.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/scrypt-jane.c">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt-jane/scrypt-jane.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt_mine.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/scrypt_mine.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/serialize.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/strlcpy.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/sync.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/sync.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/Checkpoints_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/DoS_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/accounting_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/allocator_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/base32_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/base58_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/base64_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/bignum_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/getarg_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/key_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/miner_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/mruset_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/multisig_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/netbase_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/rpc_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/script_P2SH_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/script_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/sigopcount_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/test_bitcoin.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/transaction_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/uint160_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/uint256_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/util_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/test/wallet_tests.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/ui_interface.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/uint256.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/util.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/util.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/version.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/version.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/wallet.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/wallet.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/walletdb.cpp">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/src/walletdb.h">
+			<Option target="CACHeCoin"/>
+		</Unit>
+		<Unit filename="/home/kalgecin/CACHeCoin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

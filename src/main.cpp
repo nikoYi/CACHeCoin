@@ -44,7 +44,8 @@ static CBigNum bnInitialHashTarget(~uint256(0) >> 20);
 unsigned int nStakeMinAge = 60 * 60 * 24 * 7; // minimum age for coin age
 unsigned int nStakeMaxAge = 60 * 60 * 24 * 30; // stake age of full weight
 unsigned int nStakeTargetSpacing = 1 * 60 * 15; // DIFF: 15-minute block spacing
-int64 nChainStartTime = 1388949883;
+int64 nChainStartTime = 1388949883;  // 01/05/2014 @ 19:24 (UTC)
+int64 nPowFixTimestamp = 1498262400; // 24/6/2017 @ 00:00 (UTC)
 int nCoinbaseMaturity = 500;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -956,6 +957,61 @@ uint256 WantedByOrphan(const CBlock* pblockOrphan)
 // cachecoin: increasing Nfactor gradually
 const unsigned char minNfactor = 4;
 const unsigned char maxNfactor = 30;
+double mGetDifficulty(const CBlockIndex* blockindex)
+{
+    // Floating point number that is a multiple of the minimum difficulty,
+    // minimum difficulty = 1.0.
+    if (blockindex == NULL)
+    {
+        if (pindexBest == NULL)
+            return 1.0;
+        else
+            blockindex = GetLastBlockIndex(pindexBest, false);
+    }
+    unsigned int nBlockBits = blockindex->nBits;
+    nBlockBits = GetNextTargetRequired(blockindex,blockindex->IsProofOfStake());
+    int nShift = (nBlockBits >> 24) & 0xff;
+
+    double dDiff = (double)0x0000ffff / (double)(nBlockBits & 0x00ffffff);
+
+    while (nShift < 29)
+    {
+        dDiff *= 256.0;
+        nShift++;
+    }
+    while (nShift > 29)
+    {
+        dDiff /= 256.0;
+        nShift--;
+    }
+
+    return dDiff;
+}
+
+uint64_t mGetNetworkHashPS( int lookup ) {
+    if( !pindexBest )
+        return 0;
+
+    if( lookup < 0 )
+        lookup = 0;
+
+    // If lookup is larger than chain, then set it to chain length.
+    if( lookup > pindexBest->nHeight )
+        lookup = pindexBest->nHeight;
+
+    CBlockIndex *pindexPrev = pindexBest;
+
+    for( int i = 0; i < lookup; ++i){
+        while(pindexPrev->pprev && pindexPrev->pprev->IsProofOfStake())
+            pindexPrev = pindexPrev->pprev;
+        pindexPrev = pindexPrev->pprev;
+    }
+
+    double timeDiff = pindexBest->GetBlockTime() - pindexPrev->GetBlockTime();
+    double timePerBlock = timeDiff / lookup;
+
+    return (uint64_t)(((double)mGetDifficulty(pindexBest) * pow(2.0, 32)) / timePerBlock);
+}
 
 unsigned char GetNfactor(int64 nTimestamp) {
     int l = 0;
@@ -979,9 +1035,28 @@ unsigned char GetNfactor(int64 nTimestamp) {
         printf( "GetNfactor(%lld) - something wrong(n == %d)\n", nTimestamp, n );
 
     unsigned char N = (unsigned char) n;
+    unsigned char nFactor = min(max(N, minNfactor), maxNfactor);
+    unsigned char nnf = nFactor;
     //printf("GetNfactor: %d -> %d %d : %d / %d\n", nTimestamp - nChainStartTime, l, s, n, min(max(N, minNfactor), maxNfactor));
 
-    return min(max(N, minNfactor), maxNfactor);
+    if(nTimestamp >= nPowFixTimestamp){
+		uint64_t nHashPS = mGetNetworkHashPS(1000);
+		uint64_t nHashPSTarget = 1000000;
+		if(nHashPS > nHashPSTarget){
+            int adjust = (int)(nHashPS/	nHashPSTarget);
+
+            if(adjust < maxNfactor) nFactor += adjust -1 ;
+            else nFactor = maxNfactor;
+        }else if(nHashPS < nHashPSTarget){
+            int adjust = (int)(nHashPSTarget/nHashPS);
+
+            if(adjust > nFactor) nFactor = minNfactor;
+            else nFactor -= adjust - 1;
+        }
+		nFactor = max(minNfactor, nFactor);
+		//printf("GetNfactor: %d -> %d %d : %d / %d\n", nTimestamp - nChainStartTime, l, s, n, nFactor);
+    }
+    return nFactor;
 }
 
 int64 GetProofOfWorkReward(unsigned int nBits)
