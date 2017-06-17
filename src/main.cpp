@@ -1057,7 +1057,7 @@ unsigned char GetNfactor(int64 nTimestamp) {
 		nFactor = max(minNfactor, nFactor);
 		//printf("GetNfactor: %d -> %d %d : %d / %d\n", nTimestamp - nChainStartTime, l, s, n, nFactor);
 	}
-	nFactor = nnf;
+
     return nFactor;
 }
 

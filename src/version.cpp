@@ -13,7 +13,7 @@
 const std::string CLIENT_NAME("Kalgecin");
 
 // Client version number
-#define CLIENT_VERSION_SUFFIX   "-toe"
+#define CLIENT_VERSION_SUFFIX   "-kal"
 
 
 // The following part of the code determines the CLIENT_BUILD variable.
