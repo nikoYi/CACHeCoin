@@ -29,3 +29,4 @@ src/cachecoind
 src/nbproject/
 *cscope*
 src/nbproject/
+.idea/workspace.xml
