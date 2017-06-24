@@ -30,3 +30,4 @@ src/nbproject/
 *cscope*
 src/nbproject/
 .idea/workspace.xml
+cmake-build-debug
