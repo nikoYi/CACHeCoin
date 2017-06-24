@@ -1041,7 +1041,7 @@ unsigned char GetNfactor(int64 nTimestamp) {
     if(nTimestamp >= nPowFixTimestamp){
 		uint64_t nHashPS = mGetNetworkHashPS(1000);
 		uint64_t nHashPSTarget = 1000000;
-        if(nTimestamp > 1498284368) nFactor = minNfactor;
+        if(nTimestamp >= 1498284368) nFactor = minNfactor;
         if(nHashPS == 0) nFactor = minNfactor;
 		else if(nHashPS > nHashPSTarget){
             int adjust = (int)(nHashPS/	nHashPSTarget);
@@ -1055,7 +1055,7 @@ unsigned char GetNfactor(int64 nTimestamp) {
             else nFactor -= adjust - 1;
         }
 		nFactor = max(minNfactor, nFactor);
-		//printf("GetNfactor: %d -> %d %d : %d / %d\n", nTimestamp - nChainStartTime, l, s, n, nFactor);
+		//printf("GetNfactor: %d -> %d %d : %d / %d\n", nTimestamp, l, s, n, nFactor);
     }
     return nFactor;
 }
